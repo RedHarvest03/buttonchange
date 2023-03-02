@@ -1,0 +1,94 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="FBI" Height="500" Width="900" Background="Aqua">
+    <Grid>
+
+        <Button 
+            Name="Button1"
+            Width="100"
+            Height="50"
+            Content="1"
+            FontSize="30"
+            Margin="200 120 500 264"
+            Background="White"
+            Foreground="black"
+            MouseRightButtonDown="TextBox_MouseRightButtonDown" Click="Button1_Click"
+            >
+
+        </Button>
+        <Button 
+            Name="Button2"
+            Width="100"
+            Height="50"
+            Content="2"
+            FontSize="30"
+            Margin="350 120 350 264"
+            Background="White"
+            Foreground="black"
+            MouseRightButtonDown="TextBox_MouseRightButtonDown1" Click="Button2_Click"
+            >
+
+        </Button>
+
+        <Button 
+            Name="Button3"
+            Width="100"
+            Height="50"
+            Content="3"
+            FontSize="30"
+            Margin="500 120 200 264"
+            Background="White"
+            Foreground="black"
+            MouseRightButtonDown="TextBox_MouseRightButtonDown2" Click="Button3_Click"
+            >
+
+        </Button>
+
+        <Button 
+            Name="Button4"
+            Width="100"
+            Height="50"
+            Content="4"
+            FontSize="30"
+            Margin="200 210 500 174"
+            Background="White"
+            Foreground="black"
+            MouseRightButtonDown="TextBox_MouseRightButtonDown3" Click="Button4_Click"
+            >
+
+        </Button>
+
+        <Button 
+            Name="Button5"
+            Width="100"
+            Height="50"
+            Content="5"
+            FontSize="30"
+            Margin="350 210 350 174"
+            Background="White"
+            Foreground="black"
+            MouseRightButtonDown="TextBox_MouseRightButtonDown4" Click="Button5_Click"
+            >
+
+        </Button>
+
+        <Button 
+            Name="Button6"
+            Width="100"
+            Height="50"
+            Content="6"
+            FontSize="30"
+            Margin="500 210 200 174"
+            Background="White"
+            Foreground="black"
+            MouseRightButtonDown="TextBox_MouseRightButtonDown5" Click="Button6_Click"
+            >
+
+        </Button>
+    </Grid>
+</Window>
